@@ -25,7 +25,7 @@ const Seccion2 = () => {
             Bootstrap y Figma para crear experiencias únicas. Soy apasionado,
             creativo y siempre estoy en busca de aprender más y mejorar como
             desarrollador. Estoy listo para asumir nuevos retos y contribuir a
-            hacer del mundo digital un lugar mejor. ¡Bienvenido a mi portafolio!
+            hacer del mundo digital un lugar mejor. 
           </p>
         </div>
         <div className="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center ">
