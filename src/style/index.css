@@ -1,0 +1,16 @@
+body::-webkit-scrollbar {
+    width: 14px; /* Ancho del scroll vertical */
+    height: 14px; /* Altura del scroll horizontal */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0d233f; /* Color del scroll */
+    border-radius: 6px; /* Borde redondeado del scroll */
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 67, 91); /* Color del scroll al pasar el cursor por encima */
+  }
+  body::-webkit-scrollbar-track {
+    background-color: rgb(70, 157, 186); /* Color de fondo del scroll */
+  }

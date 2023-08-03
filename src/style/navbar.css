@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+.home-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 130px;
+   
+    
+  }
+  
+  .home-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background-color: #2C476B;
+    color: #01bbff;
+  
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .home-container:hover .home-text {
+    opacity: 1;
+    animation: moveUp 0.5s infinite alternate; /* Agrega el efecto de movimiento */
+  }
+  
+  @keyframes moveUp {
+    from {
+      transform: translateX(-50%) translateY(0);
+    }
+    to {
+      transform: translateX(-50%) translateY(-5px); /* Ajusta la distancia del movimiento */
+    }
+  }
+  
+  .icon-container {
+    display: flex;
+
+  }
+
+  .boton{
+    color:#2C476B;
+  }
+ 
+  .boton{
+    background-color: #01bbff;
+  }

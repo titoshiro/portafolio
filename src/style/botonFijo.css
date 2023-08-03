@@ -1,0 +1,17 @@
+.botonFijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #061a2f;
+    color: #1ed5e2;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 999; /* Asegura que el botón esté en la parte superior */
+  }
+  
+  .botonFijo:hover {
+    background-color: #043972;
+  }
+  
