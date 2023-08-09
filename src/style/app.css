@@ -40,27 +40,28 @@ body {
 }
   
   /* Reglas de medios para pantallas más pequeñas */
-  @media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
 .presentacion {
       top: 5px; /* Ajustar el desplazamiento vertical para pantallas más pequeñas */
-      left: 110px; /* Ajustar el desplazamiento horizontal para pantallas más pequeñas */
+      left: 30px; /* Ajustar el desplazamiento horizontal para pantallas más pequeñas */
     }
+.video{
+  position: relative;
+  left: 1px;
+  top: 40px;
+}
+.seccion-1{
+  height: 65vh;
+
+}
   }
+
 .video{
     position: relative;
     
     right:10%; 
 }
 
-
-@media screen and (max-width: 800px) {
-  .video {
-    margin-top: 30px;
-    width: 400px;
-    left: 30px;
-       
-      }
-    }
 
 
 
@@ -152,7 +153,7 @@ strong {
 
 @media screen and (max-width: 768px) {
   .seccion-3 {
-    height: 370vh; /* Ajusta la altura según el contenido en dispositivos más pequeños */
+    height: 220vh; /* Ajusta la altura según el contenido en dispositivos más pequeños */
   }
   /* Agrega otros estilos específicos para dispositivos más pequeños aquí */
 }
@@ -219,13 +220,17 @@ strong {
 }
 .email{
 
-  font-size: 35px;
+  font-size: 30px;
     color:#2dc3ed;
   
 }
 @media screen and (max-width: 768px) {
   .seccion-4 {
-    height: 65vh; /* Ajusta la altura según el contenido en dispositivos más pequeños */
+    height: 40vh; /* Ajusta la altura según el contenido en dispositivos más pequeños */
   }
-  /* Agrega otros estilos específicos para dispositivos más pequeños aquí */
+.conectemos{
+  position: relative;
+  right: 30px;
+}
+ 
 }

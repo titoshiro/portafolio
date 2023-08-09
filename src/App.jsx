@@ -14,7 +14,7 @@ function App() {
     
       <div id="seccion1" className="seccion-1 ">
         <Navbar />
-      <Seccion1/>
+    <Seccion1/>
        
       </div>
 
