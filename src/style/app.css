@@ -30,7 +30,7 @@ body {
     left: 20%; /* Desplazamiento horizontal */
   }
 .hola{
-    font-size: 50px;
+    font-size: 48px;
     color: #fbfeba;
 }
 .full{
@@ -40,7 +40,7 @@ body {
 }
   
   /* Reglas de medios para pantallas más pequeñas */
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 750px) {
 .presentacion {
       top: 5px; /* Ajustar el desplazamiento vertical para pantallas más pequeñas */
       left: 110px; /* Ajustar el desplazamiento horizontal para pantallas más pequeñas */
@@ -49,7 +49,7 @@ body {
 .video{
     position: relative;
     
-    right:11%; 
+    right:10%; 
 }
 
 
