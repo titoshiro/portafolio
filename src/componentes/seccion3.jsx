@@ -110,6 +110,7 @@ const Seccion3 = () => {
           <br />
         </div>
         <img className="starwars" src={registrate} alt="" />
+        <br />
       </div>
     </div>
   </div>

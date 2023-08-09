@@ -7,7 +7,7 @@ const Seccion4 = () => {
     <div className="container">
     <div className="row">
       <div className="footer col-12 col-md-6 text-center ">
-        <h2 className="hola">Conectemos</h2>
+        <h2 className="conect">Conectemos</h2>
         <h5 className="email">titocontactos@gmail.com</h5>
     
         <div className="iconprincipal">

@@ -1,11 +1,23 @@
-import yo from "../imagenes/yo.mp4";
+import yo from "../imagenes/yo.mp4"
+import "../style/app.css"
 
-const Seccion2 = () => {
+
+const Nsession2 = () => {
+
+
   return (
-    <div className="container ">
-      <div className="row">
-        <div className="col-12 col-md-12 col-lg-6 ">
-          <div className="quiensoy">
+<div className="container">
+  <div className="row">
+    <div className="col-md-5 border border-0 ">
+      <div className="video-container">
+        <video  className="video2 " autoPlay muted loop>
+          <source src={yo} type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <div className="col-md-6">
+      <div className="card-body color border border-0 m-4">
+        <div className="quiensoy border border-1">
             <h1>¿Quién soy?</h1>
           </div>
           <p>
@@ -28,12 +40,12 @@ const Seccion2 = () => {
             hacer del mundo digital un lugar mejor. 
           </p>
         </div>
-        <div className="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center ">
-          <video className="yo " src={yo} alt="" />
-        </div>
-      </div>
+        
     </div>
-  );
-};
+    </div>
 
-export default Seccion2;
+  </div>
+  )
+}
+
+export default Nsession2

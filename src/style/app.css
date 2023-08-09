@@ -6,60 +6,42 @@ body {
 
 .seccion-1 {
     background-color: #2C476B;
-    height: 100vh;
+    height: 100%;
  
 
+  }
+  .presentacion{
+    background-color: #2C476B;
+   
   }
 
 .nombre{
     font-family: 'Fjalla One', sans-serif;
     color:#2dc3ed;
     font-size: 60px;
-    margin: 5px;
+    
+    
 }
 .yosoy{
     position: relative;
-    left: 8px;
     font-size: 15px;
     color: #fbfeba;
 
 }
-.presentacion {
-    position: relative;
-   top: 60px;
-    left: 20%; /* Desplazamiento horizontal */
-  }
+
 .hola{
     font-size: 48px;
     color: #fbfeba;
 }
 .full{
    position: relative;
-   left: 14px;
    color: #fbfeba;
 }
+.video1{
+  margin: 0;
+  width: 90%;
+  border:#181c3d;
   
-  /* Reglas de medios para pantallas más pequeñas */
-@media screen and (max-width: 750px) {
-.presentacion {
-      top: 5px; /* Ajustar el desplazamiento vertical para pantallas más pequeñas */
-      left: 30px; /* Ajustar el desplazamiento horizontal para pantallas más pequeñas */
-    }
-.video{
-  position: relative;
-  left: 1px;
-  top: 40px;
-}
-.seccion-1{
-  height: 65vh;
-
-}
-  }
-
-.video{
-    position: relative;
-    
-    right:10%; 
 }
 
 
@@ -67,23 +49,12 @@ body {
 
 
 /* Estilos para la sección 2 */
-.seccion-2 {
-  background-color: #42699d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
-  position: relative;
-  min-height: 100vh;
-}
+.seccion-2{
 
-/* Estilos para el texto */
-.seccion-2 .col-12.col-md-5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 900px; /* Añadimos un ancho máximo */
-  margin: 0 auto; /* Centramos horizontalmente el contenido */
+  background-color: #42699d;
+  height: 100%;
+
+
 }
 
 .seccion-2 h1 {
@@ -96,6 +67,7 @@ body {
 }
 
 .quiensoy {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,45 +87,41 @@ body {
   color: #c3cffa;
   text-align: left;
   margin-top: 20px;
-  /* margin-left: 90px; Eliminamos este margen para centrar verticalmente */
+
 }
 
-strong {
-  color: #181c3d;
-  font-weight: bolder;
-  text-shadow: 1px 1px 1px rgb(57, 75, 103);
+.color{
+  background-color: #42699d;
+
 }
+
+
 
 /* Estilos para la imagen */
-.yo {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Centramos horizontalmente la imagen */
+.video2 {
+  margin: 50px;
+  margin-top: 90px;
+width: 70%;
+background-color: #42699d;
+
+
+
 }
 
-/* Reglas de medios para pantallas más pequeñas */
-@media screen and (max-width: 1500px) {
-  .seccion-2 .col-12.col-md-5 {
-    margin-left: 0;
-    max-width: 100%; /* Para ocupar todo el ancho en pantallas pequeñas */
-  }
-  .seccion-2 p {
-    margin-left: 0;
-  }
-}
 
 
 
 
 .seccion-3 {
   background-color: #2C476B;
-  height: 200vh;
+  height: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1500px) {
   .seccion-3 {
-    height: 220vh; /* Ajusta la altura según el contenido en dispositivos más pequeños */
+    height: 100%; 
+    margin: 0;
+    width: 100%;/* Ajusta la altura según el contenido en dispositivos más pequeños */
   }
   /* Agrega otros estilos específicos para dispositivos más pequeños aquí */
 }
@@ -204,15 +172,19 @@ strong {
 
 .seccion-4 {
   background-color: #42699d;
-  height: 45vh;
+  height: auto;
 }
 .conectemos{
   margin-top: 20px;
-  margin-left: 80px;
+  margin-left: 110px;
   align-items: center;
   justify-content: center;
   width: 300px;
   
+
+}
+.conect{
+  color: #fbfeba;
 
 }
 .footer{
@@ -226,11 +198,23 @@ strong {
 }
 @media screen and (max-width: 768px) {
   .seccion-4 {
-    height: 40vh; /* Ajusta la altura según el contenido en dispositivos más pequeños */
+    width: 100%;
+    height: 100%;
   }
-.conectemos{
-  position: relative;
-  right: 30px;
-}
- 
+  .email{
+
+    font-size: 15px;
+      color:#2dc3ed;
+    
+  }
+  .conectemos{
+    margin-top: 20px;
+    margin-left: 45px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    
+  
+  }
+
 }
